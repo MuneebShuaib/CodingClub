@@ -1,9 +1,11 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import Aside from './Aside'
 import './App.css'
 //this is for some animations
 import 'animate.css';
+//css framework
+import 'bulma/css/bulma.min.css';
 
 
 import Navbar from './Navbar'
@@ -34,10 +36,13 @@ function App() {
     <>
       <Navbar className="header" />
 
+      <Aside />
 
 
+      {/* the main will be on this page */}
       {/* this needs to be styled probably animation too*/}
-      <button className="animate__animated the_button" onClick={animate}>There are {count} coding club members!</button>
+      <button className="button is-danger animate__animated the_button" style={{ margin: "40px" }} onClick={animate}>There are {count} coding club members!</button>
+      {/* this can be any animation on animate.css */}
 
       <Navbar className="footer" />
     </>

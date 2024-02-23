@@ -1,0 +1,26 @@
+.logo {
+  width: 75px;
+  height: auto;
+}
+
+.navbar {
+  padding: 15px;
+}
+
+.notion {
+  margin-top: 25%;
+
+}
+
+#title {
+  display: flex;
+  align-items: center;
+  /* This centers items vertically */
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+.cont {
+  width: 100%;
+  height: auto;
+}
