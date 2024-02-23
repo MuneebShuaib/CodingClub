@@ -34,7 +34,7 @@ function App() {
 
 
     <>
-      <Navbar className="header" />
+      < Navbar className="header" />
 
       <Aside />
 

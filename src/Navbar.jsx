@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from './assets/cod.jpeg'
+import logo from './assets/borderless.png'
 import './Navbar.css'
 
 
@@ -19,7 +19,7 @@ function Navbar() {
     <>
 
 
-      <nav className="navbar cont" role="navigation" aria-label="main navigation">
+      <nav className="navbar cont is-dark" role="navigation" aria-label="main navigation">
         <div className="cont navbar-brand">
 
           <img src={logo} alt="Bulma: Free, open source, and modern CSS framework based on Flexbox" className='logo' />
