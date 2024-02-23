@@ -36,7 +36,7 @@ function App() {
     <>
       < Navbar className="header" />
 
-      <Aside />
+      <Aside className="aside" />
 
 
       {/* the main will be on this page */}
