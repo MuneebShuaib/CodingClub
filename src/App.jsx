@@ -45,6 +45,8 @@ function App() {
       {/* this can be any animation on animate.css */}
 
       <Navbar className="footer" />
+      <End />
+
     </>
   )
 }
