@@ -34,8 +34,14 @@ function Navbar() {
 
           {/* link to notion */}
           <div className="end navbar-end">
-            <a href="https://cypress-pixie-354.notion.site/Home-b632fa70517646c9bca0dea8e63e5ad8"><button className="notion button is-info">Notion</button></a>
-          </div></div>
+
+            <a href="https://cypress-pixie-354.notion.site/Home-b632fa70517646c9bca0dea8e63e5ad8"><button className="button-nav button is-info">Notion</button></a>
+            <a href="https://www.linkedin.com/company/nvcc-coding-club/
+"><button className="button-nav button is-success">LinkedIn</button></a>
+          </div>
+
+
+        </div>
       </nav></>
   )
 }
