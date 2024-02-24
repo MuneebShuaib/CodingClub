@@ -22,7 +22,8 @@ function Navbar() {
       <nav className="navbar cont is-dark" role="navigation" aria-label="main navigation">
         <div className="cont navbar-brand">
 
-          <img src={logo} alt="Bulma: Free, open source, and modern CSS framework based on Flexbox" className='logo' />
+          <img src={logo} alt="Coding club logo" className='logo image is-64x64 
+' />
 
           <h1 id='title'>The Coding Club at Northern Virginia Community College </h1>
           <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false">
