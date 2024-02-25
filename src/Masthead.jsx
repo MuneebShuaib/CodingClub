@@ -31,15 +31,15 @@ function Masthead() {
       >
         <div>
           <img className="image mast" src={Mast1} />
-          <p className="legend">Officers and Members compete at George Mason's Hackfax Hackathon</p>
+          <p className="legend">Members and officers compete at George Mason's Hackfax Hackathon.</p>
         </div>
         <div>
           <img className="image mast" src={Mast2} />
-          <p className="legend">The opening ceremony Hoyahacks 2024</p>
+          <p className="legend">The opening ceremony Hoyahacks 2024 which was attended by Coding Club members.</p>
         </div>
         <div>
           <img src={Mast3} className="image mast" />
-          <p className="legend">Hazrat shows social engineering phishing exploit</p>
+          <p className="legend">Hazrat shows social engineering phishing exploit using Kali Linux.</p>
         </div>
       </Carousel>
 
