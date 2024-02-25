@@ -1,5 +1,5 @@
 import React from 'react'
-import { Props } from 'react';
+import 'bulma/css/bulma.min.css';
 
 function Officers() {
 
@@ -43,7 +43,10 @@ function Officers() {
 
 
   return (
-    <><div className="container">{listItems}</div></>
+    <>
+
+
+      <div className="has-background-light"><div className="container">{listItems}</div></div></>
   )
 }
 

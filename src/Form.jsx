@@ -10,7 +10,7 @@ function Form() {
           <div className="field">
             <label className="label">Name</label>
             <div className="control">
-              <input className="input" type="text" placeholder="Text input" />
+              <input className="input" type="text" placeholder="Your name" />
             </div>
           </div>
 
@@ -47,7 +47,7 @@ function Form() {
           <div className="field">
             <label className="label">Message</label>
             <div className="control">
-              <textarea className="textarea" placeholder="Textarea"></textarea>
+              <textarea className="textarea" placeholder="Your message"></textarea>
             </div>
           </div>
 
