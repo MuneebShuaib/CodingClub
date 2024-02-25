@@ -85,7 +85,7 @@ function App() {
 
       <Masthead></Masthead>
 
-
+      <br />
       <div className="columns has-background-dark">
         <div className="column container m-5 has-background-dark">
           <p className='main-text is-size-4 has-text-light'>Founded in 2019 and 100% student run, the Coding Club has provided weekly meetings to Northen Virginia Community College (NVCC) students on coding and many other topics.</p>
