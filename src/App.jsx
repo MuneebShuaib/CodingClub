@@ -114,7 +114,6 @@ function App() {
       <Officers></Officers>
 
 
-      {/* this can be any animation on animate.css */}
       <Form></Form>
       <Navbar className="footer" />
       <End />

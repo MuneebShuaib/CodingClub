@@ -3,8 +3,8 @@ import React from 'react'
 function Form() {
   return (
     <>
-      <div className="container">
-        <form action="" id="form" className='my-3'>
+      <div className="has-background-danger container is-fluid py-3">
+        <form action="" id="form" className=''>
 
 
           <div className="field">
@@ -27,7 +27,7 @@ function Form() {
                 <i className="fas fa-exclamation-triangle"></i>
               </span>
             </div>
-            <p className="help is-danger">This email is invalid</p>
+            <p className="help is-dark">This email is invalid</p>
           </div>
 
           <div className="field">
