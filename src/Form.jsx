@@ -19,7 +19,7 @@ function Form() {
           <div className="field">
             <label className="label">Email</label>
             <div className="control has-icons-left has-icons-right">
-              <input className="input is-danger" type="email" placeholder="Please use NVCC email if you wish to be a member" value="" />
+              <input className="input is-danger" type="email" placeholder="Please use NVCC email if you wish to be a member" />
               <span className="icon is-small is-left">
                 <i className="fas fa-envelope"></i>
               </span>
