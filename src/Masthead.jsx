@@ -42,7 +42,7 @@ function Masthead() {
           <p className="legend">Hazrat shows social engineering phishing exploit</p>
         </div>
       </Carousel>
-      );
+
 
     </>
   )

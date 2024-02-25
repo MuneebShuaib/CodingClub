@@ -11,7 +11,7 @@ function End() {
 
       <div className="has-background-warning columns is-centered">
         <div className="column is-one-third mt-4">
-          <p className="has-text-centered has-text-dark">built with: </p>
+          <p className="has-text-centered has-text-dark">Built with: </p>
           <div className="is-flex is-justify-content-center"> {/* Center the images */}
             <img className="image is-32x32" src={reactLogo} alt="React Logo" /> {/* Use Bulma 'image' class */}
             <img className="image is-32x32" src={jsLogo} alt="JS Logo" />

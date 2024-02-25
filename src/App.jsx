@@ -6,7 +6,8 @@ import 'bulma/css/bulma.min.css';
 import End from './End';
 import Navbar from './Navbar'
 import Masthead from './Masthead';
-
+import 'animate.css';
+import Form from './Form';
 
 //TODO
 
@@ -83,10 +84,35 @@ function App() {
       < Navbar className="header" />
 
       <Masthead></Masthead>
-      <button data-text="This uses a fibbonacci sequence" className="tooltip button is-danger animate__animated the_button" style={{ margin: "40px" }} onClick={animate}>There are {count} coding club members!</button>
+
+
+      <div className="columns has-background-dark">
+        <div className="column container m-5 has-background-dark">
+          <p className='main-text is-size-4 has-text-light'>Founded in 2019 and 100% student run, the Coding Club has provided weekly meetings to Northen Virginia Community College (NVCC) students on coding and many other topics.</p>
+          <p className="main-text is-size-4 has-text-light">As of Febuary 2024, the club has around 500 members.</p>
+          <p className="main-text is-size-4 has-text-light"></p>
+          <p className="main-text is-size-4 has-text-light">The club abides by the club constitution found on the notion page.</p>
+          <p className="main-text is-size-4 has-text-light">Officers are fairly elected by all club members at the election meeting.</p>
+        </div>
+        <div className="column has-background-light">
+          <button data-text="This uses a fibbonacci sequence" className="tooltip button is-danger animate__animated the_button is-size-4" style={{ margin: "40px" }} onClick={animate}>There are {count} coding club members!</button>
+          <p className='main-text text-center is-size-4'>Fun fact! This button counts up in a fibbonacci sequence!</p>
+          <p className=' main-text text-center is-size-4'>Want to become a member? Fill out the form below or contact us on Linkedin.</p>
+          <div className="buttons is-centered">
+
+            <a href="https://www.linkedin.com/company/nvcc-coding-club/
+"><button className="button-nav button is-success">LinkedIn</button></a>
+            <a href="#form"><button className="button-nav button is-warning">Form</button></a>
+          </div></div>
+
+      </div>
+
+
+
+
       {/* this needs to be styled probably animation too*/}
       {/* this can be any animation on animate.css */}
-
+      <Form></Form>
       <Navbar className="footer" />
       <End />
 
