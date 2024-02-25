@@ -12,7 +12,12 @@
 }
 
 .legend {
-  font-size: 26px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.container-carosel {
+  margin-top: 10px;
 }
 
 .legend {

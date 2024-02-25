@@ -27,6 +27,7 @@ function Masthead() {
         autoPlay={true}
         interval={4000}
         showArrows={true}
+        className='container-carosel'
       >
         <div>
           <img className="image mast" src={Mast1} />
