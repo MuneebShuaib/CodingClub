@@ -8,7 +8,7 @@ import Navbar from './Navbar'
 import Masthead from './Masthead';
 import 'animate.css';
 import Form from './Form';
-
+import Officers from './Officers';
 //TODO
 
 // build masthead featuring button and resize button use bulma column?
@@ -107,10 +107,9 @@ function App() {
 
       </div>
 
+      <Officers></Officers>
 
 
-
-      {/* this needs to be styled probably animation too*/}
       {/* this can be any animation on animate.css */}
       <Form></Form>
       <Navbar className="footer" />
