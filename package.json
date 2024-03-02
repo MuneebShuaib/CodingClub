@@ -1,8 +1,9 @@
 {
-  "name": "coding_club",
+  "name": "nvcc-coding-club.github.io",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://nvcc-coding-club.github.io/",
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
